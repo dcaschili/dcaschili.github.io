@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shadertoy on Daniele Caschili</title>
+    <link>https://dcaschili.github.io/techs/shadertoy/</link>
+    <description>Recent content in Shadertoy on Daniele Caschili</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://dcaschili.github.io/techs/shadertoy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ray Marched scene</title>
+      <link>https://dcaschili.github.io/personal/raymarchedscene/raymarchedscene/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dcaschili.github.io/personal/raymarchedscene/raymarchedscene/</guid>
+      <description>This is a basic shader created in Shadertoy to learn and explore ray marching. In this project, I implemented the following features:
+Signed distance field to render spheres and a plane. A simple Blinn-Phong lighting model with a directional light. Shadows achieved by ray marching towards the light source. </description>
+    </item>
+  </channel>
+</rss>

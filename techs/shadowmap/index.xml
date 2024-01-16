@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shadowmap on Daniele Caschili</title>
+    <link>https://dcaschili.github.io/techs/shadowmap/</link>
+    <description>Recent content in Shadowmap on Daniele Caschili</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://dcaschili.github.io/techs/shadowmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EngineGL</title>
+      <link>https://dcaschili.github.io/personal/enginegl/enginegl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dcaschili.github.io/personal/enginegl/enginegl/</guid>
+      <description>This is a toy renderer written in C++ and OpenGL to learn new graphics techniques and C++. The renderer features at the moment:
+Forward rendering Spot and directional lights support Shadowmapping Soft edge shadows Shadow support for multiple lights Environment mapping + simple environment reflections. Soft shadows To add soft shadows I implemented the technique described in GPU Gems 2 ch. 17.
+Basically it adds some noise to offset the sample points for the PCF technique.</description>
+    </item>
+  </channel>
+</rss>
