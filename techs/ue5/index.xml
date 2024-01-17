@@ -15,7 +15,7 @@
       <description>This is a snake clone that I made in Unreal Engine 5 to improve my knowledge of the engine.
 I uploaded a small gameplay video here.
 Main features:
-Grass rendering + grass blades bending Niagara: Snake body -&amp;gt; ribbon Grass bending direction Enhanced input Savegame system for tracking player record. Materials: Grass checkerboard pattern and fake AO Snake body color In addition I added some visual debugging features, like snake body box colliders and tile occupancy to help me during development.</description>
+Grass rendering + grass blades bending Niagara: Snake body -&amp;gt; ribbon Grass bending direction Enhanced input Savegame system for tracking player record. Materials: Grass checkerboard pattern Snake body color In addition I added some visual debugging features, like snake body box colliders and tile occupancy to help me during development.</description>
     </item>
   </channel>
 </rss>
