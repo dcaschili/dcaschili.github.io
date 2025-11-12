@@ -8,6 +8,15 @@
     <language>en-us</language>
     <atom:link href="https://dcaschili.github.io/techs/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>EngineGL</title>
+      <link>https://dcaschili.github.io/personal/enginegl/enginegl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dcaschili.github.io/personal/enginegl/enginegl/</guid>
+      <description>This is a small renderer written in C++ and OpenGL to learn new graphics techniques and C++. The renderer features at the moment:
+Forward rendering Spot and directional lights support Shadowmapping Soft edge shadows Shadow support for multiple lights Environment mapping + simple environment reflections. Post-Process Motion Blur Soft shadows To add soft shadows I implemented the technique described in GPU Gems 2 ch. 17.
+Basically it adds some noise to offset the sample points for the PCF technique.</description>
+    </item>
+    <item>
       <title>Snake</title>
       <link>https://dcaschili.github.io/personal/snake/snake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,15 +25,6 @@
 I uploaded a small gameplay video here.
 Main features:
 Grass rendering + grass blades bending Niagara: Snake body -&amp;gt; ribbon Grass bending direction Enhanced input Savegame system for tracking player record. Materials: Grass checkerboard pattern Snake body color In addition I added some visual debugging features, like snake body box colliders and tile occupancy to help me during development.</description>
-    </item>
-    <item>
-      <title>EngineGL</title>
-      <link>https://dcaschili.github.io/personal/enginegl/enginegl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dcaschili.github.io/personal/enginegl/enginegl/</guid>
-      <description>This is a work in progress toy renderer written in C++ and OpenGL to learn new graphics techniques and C++. The renderer features at the moment:
-Forward rendering Spot and directional lights support Shadowmapping Soft edge shadows Shadow support for multiple lights Environment mapping + simple environment reflections. Soft shadows To add soft shadows I implemented the technique described in GPU Gems 2 ch. 17.
-Basically it adds some noise to offset the sample points for the PCF technique.</description>
     </item>
   </channel>
 </rss>

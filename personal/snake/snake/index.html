@@ -30,7 +30,7 @@
   <meta itemprop="name" content="Snake">
 <meta itemprop="description" content="A Snake clone made in UE5">
 
-<meta itemprop="wordCount" content="348">
+<meta itemprop="wordCount" content="314">
 <meta itemprop="keywords" content="" />
 </head>
 <body>
@@ -41,11 +41,11 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://dcaschili.github.io/images/profileImage.jpg' alt="Profile Gameplay" class="rounded-logo">
+        <img src='https://dcaschili.github.io/images/profileImage.jpg' alt="Profile PERSONAL PROJECTS" class="rounded-logo">
       </a>
     </div>
     <h2>Daniele Caschili</h2>
-    <h3>I'm a game developer</h3>
+    <h3> </h3>
     <div class="menu">
       
 
@@ -114,11 +114,11 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://dcaschili.github.io/images/profileImage.jpg' alt="Profile Gameplay" class="rounded-logo">
+          <img src='https://dcaschili.github.io/images/profileImage.jpg' alt="Profile PERSONAL PROJECTS" class="rounded-logo">
         </a>
       </div>
       <h2>Daniele Caschili</h2>
-      <h3>I'm a game developer</h3>
+      <h3> </h3>
       <div class="menu">
         
 
@@ -297,7 +297,7 @@ For the project I created a custom plugin, as a submodule, so that I can reuse s
 <h1 id="grass">Grass Rendering</h1>
 <p>The main feature I was interested in developing in this project was the grass blades bending system. This allowed me to improve my knowled of Unreal material systems and also to learn about Niagara.</p>
 <p>The bending is implemented in a material. Given that the map is limited in size I was able to output the bending direction to a texture and then to directly sample the texture, with a basic uv remapping, using world positions.<br>
-In addition to the particle system that composes the body, the snake has also another particle system, invisbile to the main camera, that outputs some particles with a simple material. The material builds the bending direction and applies a gradient to reduce the intensity of the bending the farther away form the center (basically it outputs a circle). Given that RGB channels can&rsquo;t hold negative values I also had to remap values to the range (0,1) and then I had to revert the mapping to get back the directions in the material.<br>
+In addition to the particle system that composes the body, the snake has also another particle system, invisbile to the main camera, that outputs some particles with a simple material. The material builds the bending direction and applies a gradient to reduce the intensity of the bending the farther away form the center (basically it outputs a circle).
 The particles are then captured by a SceneCaptureComponent2D and the output is sent to a RenderTarget:
 <figure><img src="/images/snakeGrassBladesBending.png"
          alt="The render target holding the bending directions."/><figcaption>
